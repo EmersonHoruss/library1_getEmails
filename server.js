@@ -1,6 +1,6 @@
 // two parameter: path and pathSave
-// path is the file's path
-// and pathSave is the file's path to save just with email data
+// path is the file's path (files contain data from competitors)
+// and pathSave is the file's path to save just with email data from competitors
 
 import {readFile,writeFile,open} from 'fs/promises'
 
